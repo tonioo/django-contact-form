@@ -4,6 +4,6 @@ from django.utils.translation import ugettext_lazy as _
 
 class ContactApp(CMSApp):
     name = _("Django Contact Form Apphook")
-    urls = ["django_contact_form.urls"]
+    urls = ["contact_form.urls"]
 
 apphook_pool.register(ContactApp)
